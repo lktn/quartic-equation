@@ -1,12 +1,13 @@
 from pystyle import *
 a = f""" ㅤ                                                                                                                     ㅤ
-________________________
-                                              
- (1) ax+b=0                    
- (2) ax²+bx+c=0                  
- (3) ax³+bx²+cx+d=0                        
- (4) ax⁴+bx³+cx²+dx+e=0           
-________________________""" 
++---+--------------------+
+|   |      Equation      |
++---+--------------------+                       
+| 1 | ax+b=0             |            
+| 2 | ax²+bx+c=0         |              
+| 3 | ax³+bx²+cx+d=0     |                   
+| 4 | ax⁴+bx³+cx²+dx+e=0 |           
++---+--------------------+""" 
 print(Colorate.Vertical(Colors.DynamicMIX((Col.light_blue, Col.cyan)), Center.XCenter(a)))
 x = int(Write.Input("\n\n Choose equation: ", Colors.green_to_white,interval=0.00001))
 if x>4:
