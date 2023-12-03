@@ -1,7 +1,7 @@
 from pystyle import *
 import cmath
 a = f"""+———+————————————————————————+ㅤ                                                                               ㅤ       
-|   |    Phương trình        |                                        
+|   |        Equation        |                                        
 +———+————————————————————————+  
 | 1 | ax+b=0                 |
 | 2 | ax²+bx+c=0             |
